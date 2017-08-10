@@ -36,13 +36,13 @@ public class PageObjTest {
 
     public void test() {
         String articleTitle = " First Article for final project!v1 ";
-//        page.connectToPage("Costina", "justsouknow1992");
+//        page.connectToPage("Costina", "");
 //        page.composeArticle("First Article for final project!v1", "Hello,\n Here we test the body for our new article.\n\nHave a nice day!v1");
 //        page.editArticle("https://www.youtube.com/watch?v=Z81hsLIY1sQ&index=242&list=PLIc7sG7swGriUp4U-U-86-XLc6DZOEuJ5");//,"Melodie random");
 //        page.addImage();  //pentru adaugarea de imagine - mai trebuie analizata partea de xpath-uri pt ca nu le recunoaste
 //        System.out.println(page.checkLastArticle());  //pentru verificare ca imi returneaza numele corect
 
-        SiteAdmin site = page.connectToPage("Costina", "justsouknow1992");
+        SiteAdmin site = page.connectToPage("Costina", "");
         page.composeArticle("First Article for final project!v1", "Hello,\n Here we test the body for our new article.\n\nHave a nice day!v1");
         page.editArticle("https://www.youtube.com/watch?v=Z81hsLIY1sQ&index=242&list=PLIc7sG7swGriUp4U-U-86-XLc6DZOEuJ5");//,"Melodie random");
 //        System.out.println(site.checkAuthor());  //pt verificare ca returneaza textul asteptat
